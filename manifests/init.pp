@@ -1,4 +1,8 @@
-# This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+# Install ansible
+#
+# Blasphemous, I know.
+class ansible {
+  include homebrew
+
+  package { 'ansible': }
 }
